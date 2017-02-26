@@ -672,8 +672,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1485702506352502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.358185, y: -1.1803126e-18, z: 1.5946965}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.685816, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4217686023861602}
   - {fileID: 4021972405359778}
@@ -1947,7 +1947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d0244f99213b4744b98b1b1f54a159e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 5
+  range: 10
   interval: 1.5
   enemyTag: Npc
   arrow: {fileID: 1254599397712660, guid: de98bdee96fc62c4fa8102205d745b18, type: 2}
