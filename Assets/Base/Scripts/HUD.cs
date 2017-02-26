@@ -4,18 +4,8 @@ using UnityEngine;
 
 public class HUD : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-
 	void OnGUI() {
+		// Npcs
 		GUILayout.BeginArea(new Rect(Screen.width-30,
 			Screen.height - 30,
 			30,
@@ -26,8 +16,9 @@ public class HUD : MonoBehaviour {
 		if (GUILayout.Button(buttonText)) {
 		}
 		GUILayout.EndArea();
+		// Npcs
 
-	
+		// Players	
 		GUILayout.BeginArea(new Rect(Screen.width-60,
 			Screen.height - 30,
 			30,
@@ -38,6 +29,7 @@ public class HUD : MonoBehaviour {
 		if (GUILayout.Button(buttonText)) {
 		}
 		GUILayout.EndArea();
+		// Players	
 	
 	}
 
