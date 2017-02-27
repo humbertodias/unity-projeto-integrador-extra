@@ -32,6 +32,14 @@ public class GameManager : MonoBehaviour {
 
 	public bool startedGame = false;
 
+
+
+	private bool pauseButtonIsPaused = true;
+	public Button pauseButton;
+	public Sprite pauseButtonOn;
+	public Sprite pauseButtonOff;
+
+
 	// Labels config
 	public Text score;
 
@@ -104,6 +112,21 @@ public class GameManager : MonoBehaviour {
 			masterMixer.SetFloat("VolumeMasterMixer",0f);
 			soundButtonIsPlaying = !soundButtonIsPlaying;
 			soundButton.GetComponent<Image>().sprite = soundButtonOn;
+		}
+	}
+
+
+	public void SetPauseOnOff(){
+		if(pauseButtonIsPaused){
+			// mute mixer
+			Time.timeScale = 0f;
+			pauseButtonIsPaused = !pauseButtonIsPaused;
+			pauseButton.GetComponent<Image>().sprite = pauseButtonOff;
+		} else {
+			// normal volume
+			Time.timeScale = 1f;
+			pauseButtonIsPaused = !pauseButtonIsPaused;
+			pauseButton.GetComponent<Image>().sprite = pauseButtonOn;
 		}
 	}
 
