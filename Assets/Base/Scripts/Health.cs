@@ -3,8 +3,16 @@ using System.Collections;
 
 public class Health : MonoBehaviour {
     public int current = 4;
+	public AudioClip deadSound;
+
 
     public Color color = Color.red;
+
+	private AudioSource audioSource;
+
+	void Start(){
+		audioSource = Camera.main.GetComponent<AudioSource> ();
+	}
 
     // Update is called once per frame
     void Update () {
@@ -25,7 +33,13 @@ public class Health : MonoBehaviour {
     void LateUpdate() {
         // dead?     
         if (current <= 0) {
+
+			if(audioSource!=null)
+				audioSource.PlayOneShot(deadSound);
+
             Destroy(gameObject);
         }
     }
+
+
 }

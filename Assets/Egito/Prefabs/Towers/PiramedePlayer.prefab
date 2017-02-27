@@ -2028,6 +2028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current: 4
+  deadSound: {fileID: 8300000, guid: 04509123d48f6405b854ebf498a0b8d6, type: 3}
   color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &114082356226577238
 MonoBehaviour:

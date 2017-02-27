@@ -404,7 +404,7 @@ MonoBehaviour:
   cube: {fileID: 745079581}
   moveSpeed: 10
   turnSpeed: 50
-  rotate: {fileID: 8300000, guid: 4f5e3f9c3941b4a0c8ff69cfff0efc37, type: 3}
+  rotate: {fileID: 8300000, guid: 661f472c193dc4adb86ada76e183b838, type: 3}
 --- !u!65 &745079583
 BoxCollider:
   m_ObjectHideFlags: 0
