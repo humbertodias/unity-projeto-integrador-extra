@@ -603,7 +603,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4967107636769084}
   - component: {fileID: 95481500613825710}
-  - component: {fileID: 114063465467971028}
   m_Layer: 0
   m_Name: Corpo
   m_TagString: Untagged
@@ -2753,17 +2752,6 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
---- !u!114 &114063465467971028
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835461257167872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114193582615780730
 MonoBehaviour:
   m_ObjectHideFlags: 1

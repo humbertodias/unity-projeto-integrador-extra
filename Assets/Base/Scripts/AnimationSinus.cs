@@ -18,15 +18,17 @@ public class AnimationSinus : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         // animation still in progress?
-        if (animRemaining > 0.0f) {
-            animRemaining -= animSpeed * Time.deltaTime;
+		if (inProgress ()) {
+			animRemaining -= animSpeed * Time.deltaTime;
             
-            // calculate current scale:
-            //   Mathf.Sin so it goes higher and lower
-            //   * intensity so the effect is not too strong
-            float s = Mathf.Sin(animRemaining) * intensity;
-            transform.localScale = startScale + new Vector3(s, s, s);
-        }
+			// calculate current scale:
+			//   Mathf.Sin so it goes higher and lower
+			//   * intensity so the effect is not too strong
+			float s = Mathf.Sin (animRemaining) * intensity;
+			transform.localScale = startScale + new Vector3 (s, s, s);
+		} else {
+			transform.localScale = Vector3.one;
+		}
 	}
 
     public void toggle() {

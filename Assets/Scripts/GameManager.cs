@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour {
 //	public Animator footBarMenu;
 //	public Animator footBarBanner;
 
-	void Start(){
+	void Awake(){
 		DontDestroyOnLoad(gameObject);
 	}
 

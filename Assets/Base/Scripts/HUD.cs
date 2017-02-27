@@ -9,8 +9,7 @@ public class HUD : MonoBehaviour {
 
 	GameManager gameManager;
 
-
-	void Start(){
+	void Awake(){
 		gameManager = FindObjectOfType<GameManager> ();
 		gameManager.startedGame = false;
 	}
@@ -21,7 +20,7 @@ public class HUD : MonoBehaviour {
 		int players = GameObject.FindGameObjectsWithTag("Player").Length;
 
 
-		if (gameManager != null && gameManager.startedGame) {
+		if (gameManager.startedGame) {
 			if (npcs == 0)
 				panelWon.SetActive (true);
 

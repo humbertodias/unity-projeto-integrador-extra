@@ -224,7 +224,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4055867449539436}
   - component: {fileID: 95089363922041706}
-  - component: {fileID: 114613586994044658}
   m_Layer: 0
   m_Name: Corpo
   m_TagString: Untagged
@@ -6450,17 +6449,6 @@ MonoBehaviour:
   interval: 1.5
   enemyTag: Npc
   arrow: {fileID: 1254599397712660, guid: de98bdee96fc62c4fa8102205d745b18, type: 2}
---- !u!114 &114613586994044658
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1100802073192558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114977605463542348
 MonoBehaviour:
   m_ObjectHideFlags: 1
