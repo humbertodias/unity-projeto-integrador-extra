@@ -17,6 +17,7 @@ public class CreateItem : MonoBehaviour {
 	}
 
 	void Update() {
+
 		// Is the player currently selectin a place to build the castle? Or in
 		// other words, was the instance variable set?
 		if (instance != null) {

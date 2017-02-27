@@ -13,6 +13,32 @@
   7. Todos os elementos do jogo devem ser desenvolvidos pelo aluno.
 
 
-# GDD
 
-![gdd.pdf](doc/gdd.pdf)
+
+
+# 1. Unity
+
+![Unity](doc/made-with-unity.png)
+
+
+# 2. Regras no GDD
+
+[gdd.pdf](doc/gdd.pdf)
+
+# 3. Vitória x Derrota
+
+![gdd.pdf](doc/vitoria.png)
+
+![gdd.pdf](doc/derrota.png)
+
+# 4. Ao menos 2 desafios
+
+Foram criadas duas fases
+
+# 5. Start, Pause, Derrota e Vitória
+
+# 6. Áudio
+
+Audio
+
+# 7. Feitos pelo Aluno

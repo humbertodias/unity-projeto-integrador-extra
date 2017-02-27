@@ -18,6 +18,7 @@ public class Selection : MonoBehaviour {
         
 	// Update is called once per frame
 	void Update () {
+
         // Multi Selection started
         if (Input.GetMouseButtonDown(0)) {
             // Set rect position to current mouse position
