@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 890121195}
   - component: {fileID: 890121197}
   - component: {fileID: 890121196}
+  - component: {fileID: 890121198}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -471,6 +472,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 890121194}
+--- !u!114 &890121198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890121194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f88cee8b419a49c981e0689d6e3c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 1
+  times: 0
+  loop: 1
 --- !u!1 &979610941
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +768,7 @@ MonoBehaviour:
   soundButton: {fileID: 740934439}
   soundButtonOn: {fileID: 21300000, guid: 912813dd7da554ac2aa7979ec08aa65d, type: 3}
   soundButtonOff: {fileID: 21300000, guid: 31b27e8027f92494caf990e017579012, type: 3}
+  startedGame: 0
   score: {fileID: 0}
 --- !u!4 &1502552395
 Transform:
