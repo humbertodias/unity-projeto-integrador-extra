@@ -4,16 +4,38 @@ using UnityEngine;
 
 public class HUD : MonoBehaviour {
 
+	public GameObject panelWon;
+	public GameObject pagelLose;
+
+	GameManager gameManager;
+
+
+	void Start(){
+		gameManager = FindObjectOfType<GameManager> ();
+		gameManager.startedGame = false;
+	}
+
 	void OnGUI() {
+
+		int npcs = GameObject.FindGameObjectsWithTag ("Npc").Length;
+		int players = GameObject.FindGameObjectsWithTag("Player").Length;
+
+
+		if (gameManager != null && gameManager.startedGame) {
+			if (npcs == 0)
+				panelWon.SetActive (true);
+
+			if (players == 0)
+				pagelLose.SetActive (true);
+		}
+
 		// Npcs
 		GUILayout.BeginArea(new Rect(Screen.width-30,
 			Screen.height - 30,
 			30,
 			30), "", "box");
 
-		string buttonText = GameObject.FindGameObjectsWithTag("Npc").Length.ToString();
-
-		if (GUILayout.Button(buttonText)) {
+		if (GUILayout.Button(npcs.ToString())) {
 		}
 		GUILayout.EndArea();
 		// Npcs
@@ -24,9 +46,7 @@ public class HUD : MonoBehaviour {
 			30,
 			30), "", "box");
 
-		buttonText = GameObject.FindGameObjectsWithTag("Player").Length.ToString();
-
-		if (GUILayout.Button(buttonText)) {
+		if (GUILayout.Button(players.ToString())) {
 		}
 		GUILayout.EndArea();
 		// Players	

@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour {
 	public Sprite soundButtonOn;
 	public Sprite soundButtonOff;
 
+	public bool startedGame = false;
+
 	// Labels config
 	public Text score;
 
@@ -38,7 +40,6 @@ public class GameManager : MonoBehaviour {
 //	public Animator footBarBanner;
 
 	void Start(){
-
 		DontDestroyOnLoad(gameObject);
 	}
 
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void PlayScene(String sceneName){
+		Debug.Log ("PlayScene " + sceneName);
 		SceneManager.LoadScene (sceneName);
 	}
 

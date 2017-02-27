@@ -10,6 +10,12 @@ public class CreateItem : MonoBehaviour {
 	// This holds the game-world instance of the prefab
 	GameObject instance;
 
+	GameManager gameManager;
+
+	void Start(){
+		gameManager = FindObjectOfType<GameManager> ();
+	}
+
 	void Update() {
 		// Is the player currently selectin a place to build the castle? Or in
 		// other words, was the instance variable set?
@@ -42,6 +48,10 @@ public class CreateItem : MonoBehaviour {
 			// Instantiate the prefab and keep track of it by assigning it to
 			// our instance variable.
 			instance = (GameObject)GameObject.Instantiate(prefab);
+
+		if (instance != null)
+			gameManager.startedGame = true;
+		
 	}
 
 }
