@@ -26,9 +26,9 @@
 
 ### 3. Vitória x Derrota
 
-	Vitória, o jogador deve derrota a torre e lacaios do inimigo.
+	Vitória, o jogador deve derrotar todas as torre e lacaios do inimigo.
 	
-	Derrota, se todos os suas torres e lacaios forem destruídos.
+	Derrotado, se todos suas torres e lacaios forem destruídos.
 
 ### 4. Desafios
 

@@ -855,11 +855,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -872,7 +867,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1 &484876575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,11 +1001,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1024,7 +1013,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1001 &494266262
 Prefab:
   m_ObjectHideFlags: 0
@@ -1094,11 +1082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 24100000, guid: 779f3acbbdb2f429b84a4507b60d1af0, type: 2}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1111,7 +1094,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 21300000, guid: 2d3bf255ab31c40e68c7222d84097d4c, type: 3}
   pauseButtonOff: {fileID: 21300000, guid: 2b0e4cdf8a8e641da979de419009199b, type: 3}
   panelPause: {fileID: 344479305}
-  score: {fileID: 0}
 --- !u!4 &507684364
 Transform:
   m_ObjectHideFlags: 0
@@ -1343,11 +1325,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1360,7 +1337,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1001 &639375134
 Prefab:
   m_ObjectHideFlags: 0
@@ -1498,11 +1474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 24100000, guid: 779f3acbbdb2f429b84a4507b60d1af0, type: 2}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1515,7 +1486,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 21300000, guid: 2b0e4cdf8a8e641da979de419009199b, type: 3}
   pauseButtonOff: {fileID: 21300000, guid: 2d3bf255ab31c40e68c7222d84097d4c, type: 3}
   panelPause: {fileID: 344479305}
-  score: {fileID: 0}
 --- !u!114 &709012937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2398,11 +2368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -2415,7 +2380,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1001 &1224305228
 Prefab:
   m_ObjectHideFlags: 0
