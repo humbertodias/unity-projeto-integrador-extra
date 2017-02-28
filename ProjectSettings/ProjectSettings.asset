@@ -121,9 +121,9 @@ PlayerSettings:
   bundleIdentifier: com.polygongames.whatistheplanet
   bundleVersion: 1.1
   preloadedAssets:
-  - {fileID: 8300000, guid: 67b4afbd58bd044629fe7334d226b56a, type: 3}
-  - {fileID: 8300000, guid: c0957b6586a1c4efe8b3dfec62ba42ed, type: 3}
-  - {fileID: 8300000, guid: 66a78570b5b63413ab20bba0e3bf4845, type: 3}
+  - {fileID: 8300000, guid: 661f472c193dc4adb86ada76e183b838, type: 3}
+  - {fileID: 8300000, guid: 0141a70e668d6488c99044a5362b9e6e, type: 3}
+  - {fileID: 8300000, guid: 8ce2de84463c945c1bbf99dbb28975ca, type: 3}
   - {fileID: 102900000, guid: acd016e7af7ed4a338d88f91972b9589, type: 3}
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1

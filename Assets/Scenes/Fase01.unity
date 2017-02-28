@@ -2008,6 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1177347946238666, guid: cea4358bd0d0240bba61b6a574306e95, type: 2}
+  yAdjust: 0
 --- !u!1 &1121509212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,6 +3275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1485702506352502, guid: ad4b4d89e43214ee7b6a8109dedfaf78, type: 2}
+  yAdjust: 0
 --- !u!114 &1833600495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3763,6 +3765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1503081669905180, guid: 65333d37918be422c8c8b811f9305221, type: 2}
+  yAdjust: 0
 --- !u!1 &2006357154
 GameObject:
   m_ObjectHideFlags: 0
