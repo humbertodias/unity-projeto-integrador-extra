@@ -2803,7 +2803,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current: 4
+  deadSound: {fileID: 0}
   color: {r: 1, g: 0, b: 0, a: 1}
+  deadParticleSystem: {fileID: 198407313924971008, guid: 8fc054a6c0f377c4e82de0a4ac2018d6,
+    type: 2}
 --- !u!195 &195814279175008644
 NavMeshAgent:
   m_ObjectHideFlags: 1

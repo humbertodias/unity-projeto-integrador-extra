@@ -10,12 +10,15 @@ public class Health : MonoBehaviour {
 
 	private AudioSource audioSource;
 
+	public ParticleSystem deadParticleSystem;
+
 	void Start(){
 		audioSource = Camera.main.GetComponent<AudioSource> ();
 	}
 
     // Update is called once per frame
     void Update () {
+		
         // set 3d text to '----', '---', '--', '-' or ''
         TextMesh tm = GetComponentInChildren<TextMesh>();
         tm.text = new string('-', current);
@@ -36,6 +39,14 @@ public class Health : MonoBehaviour {
 
 			if(audioSource!=null)
 				audioSource.PlayOneShot(deadSound);
+
+			if (deadParticleSystem != null) {
+
+				//
+				ParticleSystem ps = Instantiate (deadParticleSystem, transform.position, transform.rotation);
+				ps.Play ();
+
+			}
 
             Destroy(gameObject);
         }

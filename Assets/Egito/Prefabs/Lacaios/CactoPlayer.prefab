@@ -1732,7 +1732,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1100802073192558}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
@@ -1827,7 +1827,7 @@ Transform:
   - {fileID: 4492218283701658}
   m_Father: {fileID: 4537091135226002}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4071158674829116
 Transform:
   m_ObjectHideFlags: 1
@@ -6461,7 +6461,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current: 4
+  deadSound: {fileID: 8300000, guid: 229f17ae5a3434c0086c684739d3d0c6, type: 3}
   color: {r: 1, g: 0, b: 0, a: 1}
+  deadParticleSystem: {fileID: 198343359063119986, guid: 9e33116ddda83804697a799212daa669,
+    type: 2}
 --- !u!195 &195343413344932522
 NavMeshAgent:
   m_ObjectHideFlags: 1

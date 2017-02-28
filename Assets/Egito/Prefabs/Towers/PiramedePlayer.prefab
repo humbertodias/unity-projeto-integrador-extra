@@ -673,7 +673,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1503081669905180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.962148, y: 5.1906464e-18, z: -7.0129786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4597500205019994}
@@ -2030,6 +2030,8 @@ MonoBehaviour:
   current: 4
   deadSound: {fileID: 8300000, guid: 04509123d48f6405b854ebf498a0b8d6, type: 3}
   color: {r: 1, g: 0, b: 0, a: 1}
+  deadParticleSystem: {fileID: 198407313924971008, guid: 8fc054a6c0f377c4e82de0a4ac2018d6,
+    type: 2}
 --- !u!114 &114082356226577238
 MonoBehaviour:
   m_ObjectHideFlags: 1
