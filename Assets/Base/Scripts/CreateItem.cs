@@ -10,6 +10,8 @@ public class CreateItem : MonoBehaviour {
 	// This holds the game-world instance of the prefab
 	GameObject instance;
 
+	public float yAdjust = 0;
+
 	GameManager gameManager;
 
 	void Start(){
@@ -32,7 +34,8 @@ public class CreateItem : MonoBehaviour {
 					// Note: if your castle appears to be 'in' the Ground
 					//       instead of 'on' the ground, you may have to adjust
 					//       the y coordinate like so:
-					//instance.transform.position += new Vector3(0, 1.23f, 0);
+//					instance.transform.position += new Vector3(0, 1.23f, 0);
+					instance.transform.position += new Vector3(0, yAdjust, 0);
 				}
 			}
 

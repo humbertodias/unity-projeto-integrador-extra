@@ -1043,6 +1043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current: 4
+  deadSound: {fileID: 0}
   color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &11400004
 MonoBehaviour:
