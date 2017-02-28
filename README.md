@@ -21,7 +21,8 @@
 
 ### 2. Regras
 
-	As regras do jogo, estão no [gdd.pdf](doc/gdd.pdf)
+	As regras do jogo, estão no 
+[GDD](doc/gdd.pdf)
 
 ### 3. Vitória x Derrota
 
@@ -37,7 +38,7 @@
 	
 	Start com o logo da produtora.
 		
-	Pause, foi feito com **Time.timeScale=0f**.
+	Pause, foi feito com Time.timeScale=0f.
 		
 	Idem para derrota e vitória
 
