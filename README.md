@@ -14,31 +14,39 @@
 
 
 
+# DONE
 
+## 1. Engine
 
-# 1. Unity
+Utilizamos a versão 5.5.1.1f1 Personal da Unity.
 
-![Unity](doc/made-with-unity.png)
+## 2. Regras
 
+As regras do jogo, estão no [gdd.pdf](doc/gdd.pdf)
 
-# 2. Regras no GDD
+## 3. Vitória x Derrota
 
-[gdd.pdf](doc/gdd.pdf)
+Vitória, o jogador deve derrota a torre e lacaios do inimigo.
 
-# 3. Vitória x Derrota
+Derrota, se todos os suas torres e lacaios forem destruídos.
 
-![gdd.pdf](doc/vitoria.png)
-
-![gdd.pdf](doc/derrota.png)
-
-# 4. Ao menos 2 desafios
+## 4. Desafios
 
 Foram criadas duas fases
 
-# 5. Start, Pause, Derrota e Vitória
+## 5. Start, Pause, Derrota e Vitória
+Start com o logo da produto
 
-# 6. Áudio
+Pause, foi feito.
 
-Audio
+Idem para derrota e vitória
+
+## 6. Áudio
+
+Audio/sfx com efeitos sonoros.
+
+Audio/music com músicas de fundo.
 
 # 7. Feitos pelo Aluno
+
+Feito.
