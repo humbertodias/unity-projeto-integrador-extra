@@ -43,7 +43,6 @@ public class Selection : MonoBehaviour {
                 if (g != null) {
                     // World to screen position
 					Camera cam = Camera.main;
-//					Vector3 p = camera.WorldToScreenPoint(g.transform.position);
 					Vector3 p = cam.WorldToScreenPoint(g.transform.position);
                     Vector2 screenPos = new Vector2(p.x, Screen.height - p.y);
                     
