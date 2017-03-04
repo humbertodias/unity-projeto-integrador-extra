@@ -24,7 +24,6 @@ public class Health : MonoBehaviour {
         tm.text = new string('-', current);
         
         // set 3d text color
-//		tm.renderer.material.color = color;
 		tm.GetComponent<Renderer>().material.color = color;
         
         // optional: make it look horizontally by facing the camera
