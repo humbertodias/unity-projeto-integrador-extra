@@ -14,6 +14,9 @@ public class TextBlink : MonoBehaviour {
 	private float min = 0f;
 	private float max = 1f;
 
+
+	public bool disableAfterTimes = false;
+
 	// Use this for initialization
 	void Start () {
 		text = GetComponent<Text> ();
@@ -21,6 +24,12 @@ public class TextBlink : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
+		if (times <= 0 && disableAfterTimes) {
+			text.enabled = false;
+			return;
+		}
 
 		if (loop || times > 0) {
 
@@ -42,9 +51,14 @@ public class TextBlink : MonoBehaviour {
 					max = 1f;
 				}
 
-			} 
+			} else {
+				return;
+			}
 
-		} 
+		}  
+
+
+
 	
 	}
 }
