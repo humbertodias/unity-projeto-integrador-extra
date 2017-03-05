@@ -128,7 +128,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 443032, guid: 4eef6f5ff5915b4458bd1d4a4f7b261a, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4eef6f5ff5915b4458bd1d4a4f7b261a, type: 2}
@@ -813,11 +813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -830,7 +825,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1 &484876575
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,11 +959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -982,7 +971,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1001 &494266262
 Prefab:
   m_ObjectHideFlags: 0
@@ -1020,7 +1008,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 463990, guid: 9984667d6d5f2cd408ce06baa515ac52, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9984667d6d5f2cd408ce06baa515ac52, type: 2}
@@ -1052,11 +1040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 24100000, guid: 779f3acbbdb2f429b84a4507b60d1af0, type: 2}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1069,7 +1052,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 21300000, guid: 2d3bf255ab31c40e68c7222d84097d4c, type: 3}
   pauseButtonOff: {fileID: 21300000, guid: 2b0e4cdf8a8e641da979de419009199b, type: 3}
   panelPause: {fileID: 344479305}
-  score: {fileID: 0}
 --- !u!4 &507684364
 Transform:
   m_ObjectHideFlags: 0
@@ -1120,7 +1102,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4398872228239238, guid: 65333d37918be422c8c8b811f9305221, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65333d37918be422c8c8b811f9305221, type: 2}
@@ -1162,7 +1144,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 460342, guid: ccf13c7381ca25349b107bbb9423e1bd, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ccf13c7381ca25349b107bbb9423e1bd, type: 2}
@@ -1301,11 +1283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1318,7 +1295,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1001 &639375134
 Prefab:
   m_ObjectHideFlags: 0
@@ -1356,7 +1332,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422762, guid: 357a66039fecd22469b4e4ea64729751, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 182448, guid: 357a66039fecd22469b4e4ea64729751, type: 2}
       propertyPath: m_Name
@@ -1402,7 +1378,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 450428, guid: 9ec1901049795e04face0066f4588247, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ec1901049795e04face0066f4588247, type: 2}
@@ -1456,11 +1432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 24100000, guid: 779f3acbbdb2f429b84a4507b60d1af0, type: 2}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -1473,7 +1444,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 21300000, guid: 2b0e4cdf8a8e641da979de419009199b, type: 3}
   pauseButtonOff: {fileID: 21300000, guid: 2d3bf255ab31c40e68c7222d84097d4c, type: 3}
   panelPause: {fileID: 344479305}
-  score: {fileID: 0}
 --- !u!114 &709012937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,6 +1529,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 709012934}
+--- !u!1001 &715703975
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.392
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.9976923e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338450548297318, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: af92e40dc74754e26a02a9733c36e093, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &781281015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,56 +1793,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 892371062}
---- !u!1001 &907708243
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400004, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-      propertyPath: spawnMaxNpcs
-      value: 10
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0fe598e8af3fb2c498921c4db31b17d0, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1079835789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2356,11 +2318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75617b630495e4e9890093813561dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  companyURL: 
-  gameName: 
-  twitterParamVia: 
-  twitterParamRelated: 
-  twitterParamHashtags: 
   masterMixer: {fileID: 0}
   companySFX: {fileID: 0}
   setSFX: {fileID: 0}
@@ -2373,7 +2330,6 @@ MonoBehaviour:
   pauseButtonOn: {fileID: 0}
   pauseButtonOff: {fileID: 0}
   panelPause: {fileID: 0}
-  score: {fileID: 0}
 --- !u!1001 &1224305228
 Prefab:
   m_ObjectHideFlags: 0
@@ -2411,7 +2367,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 478916, guid: 96b62898125915e4892dc72bd9f4e420, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96b62898125915e4892dc72bd9f4e420, type: 2}
@@ -2453,7 +2409,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 412638, guid: 568b15b1fe7027049b35d9c4fbe502ba, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 568b15b1fe7027049b35d9c4fbe502ba, type: 2}
@@ -2617,7 +2573,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 439950, guid: ff8cc0a917ea2aa4b9a824a1671a0b2f, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ff8cc0a917ea2aa4b9a824a1671a0b2f, type: 2}
@@ -2733,7 +2689,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422762, guid: 357a66039fecd22469b4e4ea64729751, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 182448, guid: 357a66039fecd22469b4e4ea64729751, type: 2}
       propertyPath: m_IsActive

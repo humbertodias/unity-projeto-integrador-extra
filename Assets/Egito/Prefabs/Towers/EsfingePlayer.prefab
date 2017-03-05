@@ -2534,7 +2534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current: 4
   deadSound: {fileID: 8300000, guid: 4f4fe1bd1c74f46a58cab223ac76c8a3, type: 3}
-  color: {r: 1, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.007843138, b: 1, a: 1}
   deadParticleSystem: {fileID: 198407313924971008, guid: 3628d0d4e5ef54b089810a8a636ec846,
     type: 2}
 --- !u!114 &114199677249978702

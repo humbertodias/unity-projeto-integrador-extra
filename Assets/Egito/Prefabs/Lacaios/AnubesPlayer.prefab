@@ -1977,7 +1977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current: 6
   deadSound: {fileID: 0}
-  color: {r: 1, g: 0, b: 0, a: 1}
+  color: {r: 0, g: 0.007843138, b: 1, a: 1}
+  deadParticleSystem: {fileID: 0}
 --- !u!114 &114964078413512332
 MonoBehaviour:
   m_ObjectHideFlags: 1

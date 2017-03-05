@@ -9,10 +9,12 @@ public class HUD : MonoBehaviour {
 
 	GameManager gameManager;
 
+
 	void Awake(){
 		gameManager = FindObjectOfType<GameManager> ();
 		gameManager.startedGame = false;
 	}
+		
 
 	void OnGUI() {
 
@@ -29,21 +31,27 @@ public class HUD : MonoBehaviour {
 		}
 
 		// Npcs
-		GUILayout.BeginArea(new Rect(Screen.width-30,
-			Screen.height - 30,
-			30,
-			30), "", "box");
 
+
+
+		GUILayout.BeginArea(new Rect(Screen.width-50,
+			Screen.height - 30,
+			50,
+			30), "", "none");
+
+		GUI.contentColor = Color.red;
 		if (GUILayout.Button(npcs.ToString())) {
 		}
 		GUILayout.EndArea();
 		// Npcs
 
 		// Players	
-		GUILayout.BeginArea(new Rect(Screen.width-60,
+		GUILayout.BeginArea(new Rect(Screen.width-100,
 			Screen.height - 30,
-			30,
-			30), "", "box");
+			50,
+			30), "", "none");
+
+		GUI.contentColor = Color.blue;
 
 		if (GUILayout.Button(players.ToString())) {
 		}

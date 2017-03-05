@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class MoveByPlayer : MonoBehaviour {
-	// Update is called once per frame
+	// Cada frame
 	void Update () {
 	    // Rightclicked while selected?
         if (Input.GetMouseButtonDown(1) && isSelected()) {
