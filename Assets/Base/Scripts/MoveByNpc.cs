@@ -3,19 +3,18 @@ using System.Collections;
 
 public class MoveByNpc : MonoBehaviour {
 
-	// Update is called once per frame
+	// A cada frame
 	void Update () {
-        // find the attack range
+        // pega intervalo de ataque
         float range = GetComponent<Attack>().range;
 
-        // find all enemy units
+        // encontra inimigos
         string enemyTag = GetComponent<Attack>().enemyTag;
         GameObject[] units = GameObject.FindGameObjectsWithTag(enemyTag);
         
-        // is there any unit that is in attack range already? if so, then there
-        // is nothing to do right now
+        // se tem algum atacando? entao, nao tem que atacar
         foreach (GameObject g in units) {
-            // still alive?
+            // ainda vido?
             if (g != null) {
                 if (Vector3.Distance(transform.position, g.transform.position) <= range) {
                     return;
@@ -23,20 +22,20 @@ public class MoveByNpc : MonoBehaviour {
             }
         }
 
-        // already moving somewhere? then do nothing for now
+        // ja esta se movendo? então não faça nada
         if (GetComponent<UnityEngine.AI.NavMeshAgent>().hasPath) {
             return;
         }
 
 
-        // pick a random target (if there are any)
+        // pega um alvo aleatorio (se houver algum)
         if (units.Length > 0) {
             int index = Random.Range(0, units.Length);
             GameObject u = units[index];
             
-            // still alive?
+            // ainda tem vida?
             if (u != null) {
-                // move close enough so we are in attack range
+                // mova proximo o suficiente para atacar
                 Vector3 pos = transform.position;
                 Vector3 target = u.transform.position;
                 
@@ -44,9 +43,7 @@ public class MoveByNpc : MonoBehaviour {
                 dir = dir.normalized;
                 Vector3 dest = pos + dir * (Vector3.Distance(target, pos) - range);
 
-                // tell the navmesh agent to go there
-				// FIXED
-//                GetComponent<NavMeshAgent>().destination = dest;
+                // fala para o agente da navmesh ir até lá
 				GetComponent<UnityEngine.AI.NavMeshAgent>().SetDestination(dest);
 
             }

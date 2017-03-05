@@ -17,7 +17,7 @@
 
 ### 1. Engine
 
-	Utilizamos a versão 5.5.1.1f1 Personal da Unity.
+	Utilizamos a versão 5.5.2.1f1 Personal da Unity.
 
 ### 2. Regras
 
