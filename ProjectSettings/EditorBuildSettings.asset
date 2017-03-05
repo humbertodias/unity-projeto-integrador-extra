@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Final.unity
   - enabled: 1
     path: Assets/Scenes/FaseX.unity
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity

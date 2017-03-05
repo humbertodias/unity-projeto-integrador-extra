@@ -74,12 +74,12 @@ public class GameManager : MonoBehaviour {
 
 	public void SetPauseOnOff(){
 		if(pauseButtonIsPaused){
-			// mute mixer
+			// pause
 			Time.timeScale = 0f;
 			pauseButtonIsPaused = !pauseButtonIsPaused;
 			pauseButton.GetComponent<Image>().sprite = pauseButtonOff;
 		} else {
-			// normal volume
+			// unpause
 			Time.timeScale = 1f;
 			pauseButtonIsPaused = !pauseButtonIsPaused;
 			pauseButton.GetComponent<Image>().sprite = pauseButtonOn;
