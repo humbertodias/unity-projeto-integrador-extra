@@ -32,13 +32,14 @@ public class HUD : MonoBehaviour {
 
 		// Npcs
 
+		GUIStyle style = GUIStyle.none;
 
 		GUI.skin.button.fontSize= 30;
 
 		GUILayout.BeginArea(new Rect(Screen.width-50,
 			00,
 			50,
-			50), "", "none");
+			50), "", style);
 
 		GUI.contentColor = Color.red;
 		if (GUILayout.Button(npcs.ToString())) {
@@ -50,7 +51,7 @@ public class HUD : MonoBehaviour {
 		GUILayout.BeginArea(new Rect(Screen.width-100,
 			00,
 			50,
-			50), "", "none");
+			50), "", style);
 
 		GUI.contentColor = Color.blue;
 

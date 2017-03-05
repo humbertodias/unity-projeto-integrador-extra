@@ -33,9 +33,9 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject panelPause;
 
-	void Awake(){
-		DontDestroyOnLoad(gameObject);
-	}
+//	void Awake(){
+//		DontDestroyOnLoad(gameObject);
+//	}
 
 	public void PlayScene(String sceneName){
 		Debug.Log ("PlayScene " + sceneName);
