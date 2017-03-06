@@ -1,6 +1,12 @@
 # Projeto Integrador Extra
 
   Data Limite: 10/03/2017
+  
+  [Detalhes do Desenvolvimento](doc/what-is-the-planet.pdf)
+
+  [GDD](doc/gdd.pdf)
+
+  [Release](https://github.com/humbertodias/unity-projeto-integrador-extra/releases)
 
 # TODO
 
