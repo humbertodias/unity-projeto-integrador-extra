@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class CastleNpc : MonoBehaviour {
-    // Parameters
+    // Parametros
     public float spawnInterval = 3.0f;
     float spawnIntervalElapsed = 0.0f;
 	public int spawnMaxNpcs = 15;
@@ -12,13 +12,13 @@ public class CastleNpc : MonoBehaviour {
 		int npcs = GameObject.FindGameObjectsWithTag ("Npc").Length;
 		if (npcs <= spawnMaxNpcs) {
 			
-			// Build it every few seconds
+			// Construi a cada poucos segundos
 			spawnIntervalElapsed += Time.deltaTime;
 			if (spawnIntervalElapsed >= spawnInterval) {
 				// Use UnitSpawner
 				GetComponent<UnitSpawner> ().spawn ();
 
-				// Reset interval
+				// Reinicia intervalo
 				spawnIntervalElapsed = 0.0f;
 			}
 

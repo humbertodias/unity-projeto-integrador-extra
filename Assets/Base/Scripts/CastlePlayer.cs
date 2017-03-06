@@ -4,9 +4,9 @@ using System.Collections;
 public class CastlePlayer : MonoBehaviour {       
     // Note: OnMouseDown only works if object has a collider
     void OnMouseDown() {
-        // Only if animation finished
+        // Somente se a animacao terminou
         if (!GetComponent<AnimationSinus>().inProgress()) {            
-            // use UnitSpawner
+            // usa UnitSpawner
             GetComponent<UnitSpawner>().spawn();
         }
     }

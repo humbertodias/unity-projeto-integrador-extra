@@ -25,7 +25,7 @@ public class Arrow : MonoBehaviour {
                 // deal damage (this decrease the target's health by one)
                 --target.GetComponent<Health>().current;
 
-                // destroy arrow
+                // destroy flecha
                 Destroy(gameObject);
             }
         } else {

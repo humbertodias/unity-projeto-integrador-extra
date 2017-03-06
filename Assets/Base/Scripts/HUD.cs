@@ -15,7 +15,6 @@ public class HUD : MonoBehaviour {
 		gameManager.startedGame = false;
 	}
 		
-
 	void OnGUI() {
 
 		int npcs = GameObject.FindGameObjectsWithTag ("Npc").Length;

@@ -2,22 +2,22 @@ using UnityEngine;
 using System.Collections;
 
 public class AnimationSinus : MonoBehaviour {
-    // parameters
+    // parâmetros
     float animRemaining = 0.0f;
     public float animSpeed = 20.0f;
     public float intensity = 1.0f;
 
-    // start scale
+    // escala inicial
     Vector3 startScale;
 
-	// Use this for initialization
+
 	void Start () {
 	   startScale = transform.localScale;
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
-        // animation still in progress?
+        // animacao ainda em progresso?
 		if (inProgress ()) {
 			animRemaining -= animSpeed * Time.deltaTime;
             
@@ -32,7 +32,7 @@ public class AnimationSinus : MonoBehaviour {
 	}
 
     public void toggle() {
-        // start a new animation
+        // inicia nova animacao
         animRemaining = 2 * Mathf.PI;
     }
 

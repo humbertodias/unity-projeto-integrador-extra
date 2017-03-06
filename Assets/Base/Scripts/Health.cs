@@ -33,7 +33,7 @@ public class Health : MonoBehaviour {
 
     // LateUpdate is called after all Update functions have been called
     void LateUpdate() {
-        // dead?     
+        // morto?     
         if (current <= 0) {
 
 			if(audioSource!=null)
