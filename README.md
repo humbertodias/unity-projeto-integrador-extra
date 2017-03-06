@@ -7,6 +7,7 @@
   [GDD](doc/gdd.pdf)
 
   [Release](https://github.com/humbertodias/unity-projeto-integrador-extra/releases)
+  
 
 # TODO
 
@@ -20,6 +21,8 @@
 
 
 # DONE
+
+  ![Demo](doc/demo.gif)
 
 ### 1. Engine
 
